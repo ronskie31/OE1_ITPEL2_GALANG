@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+        <ion-title>
+            My Ionic App
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+        <ion-card-header>
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/305256583_632204185309905_1926129810097460831_n.png?_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_ohc=8gRYdPR29yMAX_uMg8g&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKH3dPNegONjHDo-0b09CMBCmbbpKiLJIaDKOOD_T5u1Q&oe=635B0C91"
+                alt="app-logo">
+            <ion-card-title> My Bulacan Boy</ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+
+        </ion-card-header>
+    </ion-card>
+</ion-content>
+
+
+<ion-content class="ion-padding">
+    <div id="con">
+        <p> {{text}} </p>
+        <div style="text-align: center !important;">
+            <ion-button (click)="onChangeText()" fill="outline" color="warning">Welcome!</ion-button>
+            <ion-button (click)="onOriginalText()" fill="outline" color="warning">BOI</ion-button>
+        </div>
+    </div>
+</ion-content>
+
+
+<ion-content [fullscreen]="false ">
+    <ion-header collapse="condense ">
+        <ion-toolbar>
+            <ion-title size="large ">My first Ionic App</ion-title>
+        </ion-toolbar>
+
+    </ion-header>
+    <div id="container">
+        <strong>Ready to create an app?</strong>
+        <p>Start with Ionic <a target="_blank " rel="noopener noreferrer " href="https://ionicframework.com/docs/components ">UI Components</a></p>
+    </div>
+</ion-content>

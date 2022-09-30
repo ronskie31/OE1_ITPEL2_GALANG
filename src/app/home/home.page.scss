@@ -1,0 +1,58 @@
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#container strong {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#container p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #8c8c8c;
+    text-align: center;
+    align-items: center;
+}
+
+#con p {
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#con {
+    padding: 20px;
+}
+
+ion-title {
+    text-align: center;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+ion-card-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img {
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+ion-padding {
+    height: auto;
+}
